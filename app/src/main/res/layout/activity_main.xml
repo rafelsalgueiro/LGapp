@@ -7,12 +7,12 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/buttongooglemaps"
+        android:id="@+id/lg_page"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="40dp"
+        android:layout_marginStart="52dp"
         android:layout_marginTop="260dp"
-        android:text="@string/api_google_maps"
+        android:text="@string/lgPage"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -21,7 +21,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="260dp"
-        android:layout_marginEnd="69dp"
+        android:layout_marginEnd="52dp"
         android:text="@string/colours"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -53,11 +53,29 @@
         android:layout_marginTop="102dp"
         android:layout_marginBottom="83dp"
         android:text="0"
-        android:textSize="100sp"
         android:textAlignment="center"
+        android:textSize="100px"
         app:layout_constraintBottom_toTopOf="@+id/Counterdecrease"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/buttongooglemaps" />
+        app:layout_constraintTop_toBottomOf="@+id/lg_page"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:contentDescription="@string/logo_of_liquid_galaxy"
+        android:layout_width="244dp"
+        android:layout_height="186dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/lg_page"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@mipmap/lg_icon_foreground" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

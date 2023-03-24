@@ -1,7 +1,8 @@
 <resources>
     <string name="app_name">4buttons</string>
     <string name="colours">Colours</string>
-    <string name="api_google_maps">Api google maps</string>
     <string name="counterdecrease">Counterdecrease</string>
     <string name="counterincrease">Counterincrease</string>
+    <string name="lgPage"> lgPage </string>
+    <string name="logo_of_liquid_galaxy">Logo of Liquid Galaxy</string>
 </resources>

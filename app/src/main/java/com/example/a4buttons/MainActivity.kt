@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val increaseButton = binding.Counterincrease
         val decreaseButton = binding.Counterdecrease
-        val googleMaps = binding.buttongooglemaps
+        val googleMaps = binding.lgPage
         val colours = binding.colours
 
         increaseButton.setOnClickListener {

@@ -7,15 +7,14 @@ import com.example.a4buttons.databinding.ActivityMapViewerBinding
 
 class MapViewer : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
+
         super.onCreate(savedInstanceState)
         val binding = ActivityMapViewerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val googleEarth = binding.googleEarth
-        googleEarth.webViewClient = WebViewClient()
-        var settings = googleEarth.getSettings()
-        settings.javaScriptEnabled = true
-        googleEarth.loadUrl("https://earth.google.com/web")
+        val googleMaps = binding.liquidGalaxyWebsite
+        googleMaps.webViewClient = WebViewClient()
+        googleMaps.loadUrl("https://www.liquidgalaxy.eu/2022/10/GSoC2023.html")
     }
 
 }
