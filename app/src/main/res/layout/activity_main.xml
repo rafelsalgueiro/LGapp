@@ -7,42 +7,57 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttongooglemaps"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
+        android:layout_marginStart="40dp"
         android:layout_marginTop="260dp"
-        android:text="Button"
+        android:text="@string/api_google_maps"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/colours"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="260dp"
         android:layout_marginEnd="69dp"
-        android:text="Button"
+        android:text="@string/colours"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/Counterdecrease"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="69dp"
+        android:layout_marginStart="4dp"
         android:layout_marginBottom="140dp"
-        android:text="Button"
+        android:text="@string/counterdecrease"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/Counterincrease"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="69dp"
+        android:layout_marginEnd="16dp"
         android:layout_marginBottom="140dp"
-        android:text="Button"
+        android:text="@string/counterincrease"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/NumCounter"
+        android:layout_width="97dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginBottom="83dp"
+        android:text="0"
+        android:textSize="100sp"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/Counterdecrease"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttongooglemaps" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">4buttons</string>
+    <string name="colours">Colours</string>
+    <string name="api_google_maps">Api google maps</string>
+    <string name="counterdecrease">Counterdecrease</string>
+    <string name="counterincrease">Counterincrease</string>
 </resources>
