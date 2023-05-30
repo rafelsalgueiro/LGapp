@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity() {
 
         val increaseButton = binding.Counterincrease
         val decreaseButton = binding.Counterdecrease
-        val googleMaps = binding.lgPage
+        val lgPage = binding.lgPage
         val colours = binding.colours
 
         increaseButton.setOnClickListener {
@@ -28,7 +28,7 @@ class MainActivity : AppCompatActivity() {
             binding.NumCounter.text = ( Integer.parseInt(numCounter.toString()) - 1 ).toString()
         }
 
-        googleMaps.setOnClickListener {
+        lgPage.setOnClickListener {
             val intent = Intent(this, MapViewer::class.java)
             startActivity(intent)
         }
@@ -39,7 +39,7 @@ class MainActivity : AppCompatActivity() {
             colours.setBackgroundColor(colour)
             increaseButton.setBackgroundColor(colour)
             decreaseButton.setBackgroundColor(colour)
-            googleMaps.setBackgroundColor(colour)
+            lgPage.setBackgroundColor(colour)
         }
 
     }

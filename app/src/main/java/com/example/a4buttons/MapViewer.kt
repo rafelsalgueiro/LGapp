@@ -12,9 +12,9 @@ class MapViewer : AppCompatActivity() {
         val binding = ActivityMapViewerBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        val googleMaps = binding.liquidGalaxyWebsite
-        googleMaps.webViewClient = WebViewClient()
-        googleMaps.loadUrl("https://www.liquidgalaxy.eu/2022/10/GSoC2023.html")
+        val LGpage = binding.liquidGalaxyWebsite
+        LGpage.webViewClient = WebViewClient()
+        LGpage.loadUrl("https://www.liquidgalaxy.eu/2022/10/GSoC2023.html")
     }
 
 }
